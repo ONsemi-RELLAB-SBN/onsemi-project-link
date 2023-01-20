@@ -38,7 +38,8 @@ body {
 
 .hero_area {
   background-color: #2801b9;
-  background-image: url(../images/hero.jpg);
+  /*background-image: url(../images/hero.jpg);*/
+  background-image: url(../images/Thanos.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
