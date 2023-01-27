@@ -373,7 +373,8 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 25px solid #d7daf4;
+  /*border: 25px solid #d7daf4;*/
+  border: 5px solid #d7daf4;
   margin: 0 auto 45px auto;
 }
 
@@ -649,5 +650,8 @@ a:focus {
 .footer_section a {
   color: #292929;
 }
+
+.image       { width: 120px; height: 120px; }
+.clip-circle { clip-path: circle(60px at center); }
 
 /* end footer section*/
