@@ -37,7 +37,8 @@ body {
 /*header section*/
 
 .hero_area {
-  background-color: #2801b9;
+  /*background-color: #2801b9;*/
+  background-color: #1a252f;
   /*background-image: url(../images/hero.jpg);*/
   background-image: url(../images/Thanos.jpg);
   background-repeat: no-repeat;
@@ -343,7 +344,7 @@ a:focus {
 
 /* about section */
 .about_section {
-  margin-top: 45px;
+  margin-top: 5px;
   text-align: center;
 }
 
@@ -367,7 +368,8 @@ a:focus {
 
 .about_img-container {
   width: 225px;
-  background-color: #1ba1b9;
+  /*background-color: #1ba1b9;*/
+  background-color: #000000;
   height: 225px;
   border-radius: 35%;
   display: flex;
@@ -382,7 +384,7 @@ a:focus {
 }
 
 .about_card .about-detail p {
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .about_card img {
@@ -694,4 +696,23 @@ a:focus {
   opacity: 1;
   right: 0;
 }
+
+.desk {
+  display: grid;
+  justify-content: center;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#link { color: #FFFFFF; }
 /* end footer section*/
