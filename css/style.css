@@ -369,16 +369,16 @@ a:focus {
   width: 225px;
   background-color: #1ba1b9;
   height: 225px;
-  border-radius: 30%;
+  border-radius: 35%;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 5px solid #d7daf4;
-  margin: 0 auto 45px auto;
+  margin: 0 auto 15px auto;         /* jarak antara icon dengan button bawah*/
 }
 
 .about_card .about_img-box {
-  width: 175px;
+  width: 170px;
 }
 
 .about_card .about-detail p {
@@ -653,4 +653,45 @@ a:focus {
 .image       { width: 120px; height: 120px; }
 .clip-circle { clip-path: circle(60px at center); }
 
+.butang {
+  display: inline-block;
+  border-radius: 12px;
+  /*background-color: #f4511e;*/
+  border: none;
+  /*color: #FFFFFF;*/
+  /*color: #f4511e;*/
+  color: #000000;
+  text-align: center;
+  /*font-size: 28px;*/
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.butang span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.butang span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -40px;
+  transition: 0.5s;
+}
+
+.butang:hover span {
+  padding-right: 25px;
+}
+
+.butang:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 /* end footer section*/
