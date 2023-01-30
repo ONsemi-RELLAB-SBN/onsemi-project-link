@@ -38,6 +38,7 @@ body {
 
 .hero_area {
   /*background-color: #2801b9;*/
+  /*background-color: #1a252f;*/
   background-color: #1a252f;
   /*background-image: url(../images/hero.jpg);*/
   background-image: url(../images/Thanos.jpg);
@@ -700,6 +701,7 @@ a:focus {
 .desk {
   display: grid;
   justify-content: center;
+  background-color: #1a252f;
 }
 
 a:link {
