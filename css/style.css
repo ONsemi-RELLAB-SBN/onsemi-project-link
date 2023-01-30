@@ -369,17 +369,16 @@ a:focus {
   width: 225px;
   background-color: #1ba1b9;
   height: 225px;
-  border-radius: 100%;
+  border-radius: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
-  /*border: 25px solid #d7daf4;*/
   border: 5px solid #d7daf4;
   margin: 0 auto 45px auto;
 }
 
 .about_card .about_img-box {
-  width: 75px;
+  width: 175px;
 }
 
 .about_card .about-detail p {
