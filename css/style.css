@@ -39,9 +39,10 @@ body {
 .hero_area {
   /*background-color: #2801b9;*/
   /*background-color: #1a252f;*/
-  background-color: #1a252f;
+  /*background-color: #1a252f;*/
+  background-color: #da7f3a;
   /*background-image: url(../images/hero.jpg);*/
-  background-image: url(../images/Thanos.jpg);
+  /*background-image: url(../images/Thanos.jpg);*/
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -200,10 +201,11 @@ a:focus {
 
 .navbar-brand span {
   font-family: "Righteous", cursive;
-  font-size: 24px;
+  font-size: 42px;
   font-weight: 500;
-  color: #fefeff;
-  margin-top: 5px;
+  /*color: #fefeff;*/
+  color: #da7f3a;
+  margin-top: 0px;
 }
 
 .custom_nav-container {
@@ -345,7 +347,7 @@ a:focus {
 
 /* about section */
 .about_section {
-  margin-top: 5px;
+  margin-top: 0px;
   text-align: center;
 }
 
@@ -368,20 +370,39 @@ a:focus {
 }
 
 .about_img-container {
-  width: 225px;
+  /*width: 225px;*/
+  width: 170px;
   /*background-color: #1ba1b9;*/
-  background-color: #000000;
-  height: 225px;
+  background-color: #ffffff;
+  /*height: 225px;*/
+  height: 170px;
   border-radius: 35%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 5px solid #d7daf4;
+  /*border: 5px solid #d7daf4;*/
+  border: 5px solid #da7f3a;
+  margin: 0 auto 15px auto;         /* jarak antara icon dengan button bawah*/
+}
+
+.about_img-container-new {
+  /*width: 225px;*/
+  width: 170px;
+  /*background-color: #1ba1b9;*/
+  background-color: #da7f3a;
+  /*height: 225px;*/
+  height: 170px;
+  border-radius: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #da7f3a;
   margin: 0 auto 15px auto;         /* jarak antara icon dengan button bawah*/
 }
 
 .about_card .about_img-box {
-  width: 170px;
+  /*width: 170px;*/
+  width: 130px;
 }
 
 .about_card .about-detail p {
@@ -665,9 +686,9 @@ a:focus {
   /*color: #f4511e;*/
   color: #000000;
   text-align: center;
-  /*font-size: 28px;*/
+  font-size: 17px;
   padding: 20px;
-  width: 200px;
+  width: 150px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -701,8 +722,9 @@ a:focus {
 .desk {
   display: grid;
   justify-content: center;
-  background-color: #1a252f;
-}
+  /*background-color: #1a252f;*/
+  background-color: #1a252f
+;}
 
 a:link {
   color: black;
